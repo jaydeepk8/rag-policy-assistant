@@ -312,25 +312,9 @@ Goodbye!
    - Automatically generate query variations (synonyms, rephrasing)
    - Improves retrieval recall for diverse phrasings
 
-4. **Confidence Scoring**
-   - Show confidence levels with each answer
-   - Flag low-confidence responses for manual review
-
-5. **Structured Output Validation**
+4. **Structured Output Validation**
    - Enforce JSON output schema for programmatic consumption
    - Add citations with chunk IDs and source documents
-
-6. **Logging & Observability**
-   - Integrate LangSmith or Phoenix for tracing
-   - Track retrieval quality, latency, and failure modes
-
-7. **Multi-turn Conversation**
-   - Add conversation memory for follow-up questions
-   - Handle context-dependent queries ("What about expedited shipping?")
-
-8. **Document Versioning**
-   - Track policy document versions
-   - Handle updates without rebuilding entire vector store
 
 ---
 
